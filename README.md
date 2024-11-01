@@ -1,114 +1,114 @@
 # AI Learning 🚀
 
-A structured path from web development to artificial intelligence and machine learning.
+![Phase](https://img.shields.io/badge/Phase-1/3-blue)
+![Module](https://img.shields.io/badge/Module-Python%20Basics-yellow)
+![Progress](https://img.shields.io/badge/Progress-1%25-green)
 
-## Overview
+A structured learning path to artificial intelligence development.
 
-This repository documents my learning from being a JavaScript developer to mastering AI/ML concepts and implementations. The curriculum is divided into three main phases, each building upon the previous one.
+## 📍 Current Status
 
-## Learning Path
+### You Are Here
+
+```mermaid
+graph LR
+    A[Phase 1: Fundamentals] --> B[Python Basics]
+    B --> C[Math Essentials]
+    C --> D[ML Foundations]
+    D --> E[Phase 2]
+    E --> F[Phase 3]
+    style B fill:#ffff00,stroke:#333,stroke-width:4px
+```
+
+**Currently working on:** Setting up learning environment  
+**Next up:** Python Basics - Core Concepts
+
+## Learning Path & Progress
 
 ### Phase 1: Fundamentals 📚
 
-Building the essential foundation for AI/ML understanding.
-
 #### 1. Python Basics
 
-- Syntax and basic concepts
-- Data structures and algorithms
-- Object-oriented programming
-- Functional programming concepts
-- Best practices and PEP 8
+- [x] Project setup and environment
+- [ ] Core Python Concepts
+  - [ ] Variables and data types
+  - [ ] Control flow (if/else, loops)
+  - [ ] Functions and parameters
+- [ ] Data Structures
+  - [ ] Lists and tuples
+  - [ ] Dictionaries and sets
+  - [ ] List comprehensions
+- [ ] Advanced Python
+  - [ ] Object-oriented programming
+  - [ ] Modules and packages
+  - [ ] Error handling
+  - [ ] File I/O
+- [ ] Python Best Practices
+  - [ ] PEP 8 style guide
+  - [ ] Virtual environments
+  - [ ] Testing basics
+  - [ ] Documentation
 
 #### 2. Mathematical Essentials
 
-- Linear Algebra
-  - Vectors and matrices
-  - Matrix operations
-  - Eigenvalues and eigenvectors
-- Calculus
-  - Derivatives and gradients
-  - Chain rule
-  - Optimization basics
-- Statistics
-  - Probability theory
-  - Statistical distributions
-  - Hypothesis testing
+- [ ] Linear Algebra
+- [ ] Calculus
+- [ ] Statistics
 
 #### 3. Machine Learning Foundations
 
-- Core concepts
-- Types of learning (supervised, unsupervised, reinforcement)
-- Model evaluation methods
-- Bias-variance tradeoff
-- Cross-validation
+- [ ] Core concepts
+- [ ] Types of learning
+- [ ] Model evaluation
+- [ ] Learning theory basics
 
 ### Phase 2: First Steps 🌱
 
-Applying fundamental knowledge to basic ML tasks.
-
-#### 1. Data Manipulation
-
-- NumPy arrays and operations
-- Pandas DataFrames
-- Data cleaning and preprocessing
-- Feature engineering
-
-#### 2. Data Visualization
-
-- Matplotlib basics
-- Seaborn for statistical visualization
-- Interactive visualizations
-
-#### 3. Basic Models
-
-- Linear regression
-- Logistic regression
-- Decision trees
-- K-means clustering
-
-#### 4. PyTorch Introduction
-
-- Tensor operations
-- Autograd mechanics
-- Dataset handling
-- Basic model creation
+- [ ] Data Manipulation (NumPy, Pandas)
+- [ ] Visualization (Matplotlib, Seaborn)
+- [ ] Basic Models
+- [ ] PyTorch Introduction
 
 ### Phase 3: Neural Networks 🧠
 
-Deep diving into neural networks and advanced concepts.
+- [ ] Neural Network Architectures
+- [ ] Training Deep Networks
+- [ ] Advanced Topics
+- [ ] Projects
 
-#### 1. Neural Network Architectures
+## Latest Updates
 
-- Feedforward networks
-- Convolutional networks (CNNs)
-- Recurrent networks (RNNs)
-- Transformers basics
+| Date       | Module | Topic                    | Status |
+| ---------- | ------ | ------------------------ | ------ |
+| 2024-01-11 | Setup  | Repository structure     | ✅     |
+| 2024-01-11 | Setup  | Learning path definition | ✅     |
+| Next       | Python | Core concepts and syntax | 🔜     |
 
-#### 2. Training Deep Networks
+Legend: ✅ Complete | 🟡 In Progress | 🔜 Next Up | ⬜ Not Started
 
-- Loss functions
-- Optimization algorithms
-- Regularization techniques
-- Batch normalization
+## Prerequisites
 
-#### 3. Advanced Topics
+- Basic programming knowledge
+- Git basics
+- Command line familiarity
 
-- Transfer learning
-- Model deployment
-- Best practices
-- Performance optimization
+## Getting Started
 
-## Progress Tracking
-
-- [ ] Phase 1 completion
-- [ ] Phase 2 completion
-- [ ] Phase 3 completion
+1. Clone this repository
+2. Follow the setup instructions in `phase-1-fundamentals/1-python-basics/setup.md`
+3. Start with the current module's README
 
 ## Resources
 
-- Official documentation links
-- Recommended books
+### Official Documentation
+
+- [Python Documentation](https://docs.python.org/3/)
+- [PyTorch Documentation](https://pytorch.org/docs/)
+- [NumPy Documentation](https://numpy.org/doc/)
+
+### Additional Learning Materials
+
+- Links to recommended books
 - Useful tutorials
 - Community resources
 
@@ -116,6 +116,10 @@ Deep diving into neural networks and advanced concepts.
 
 Feel free to suggest improvements or corrections via issues or pull requests.
 
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ---
 
-Created with 💜 by Thibault and Claude
+Created with 💜 by [Your Name] and Claude
