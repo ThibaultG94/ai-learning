@@ -20,8 +20,8 @@ graph LR
     style B fill:#ffff00,stroke:#333,stroke-width:4px
 ```
 
-**Currently working on:** Setting up learning environment  
-**Next up:** Python Basics - Core Concepts
+**Currently working on:** Python Basics  
+**Next up:** Booleans and Operators
 
 ## Learning Path & Progress
 
@@ -31,7 +31,9 @@ graph LR
 
 - [x] Project setup and environment
 - [ ] Core Python Concepts
-  - [ ] Variables and data types
+  - [x] Variables et nombres (int, float)
+  - [x] Chaînes de caractères (strings)
+  - [ ] Booléens et opérateurs logiques
   - [ ] Control flow (if/else, loops)
   - [ ] Functions and parameters
 - [ ] Data Structures
@@ -78,11 +80,11 @@ graph LR
 
 ## Latest Updates
 
-| Date       | Module | Topic                    | Status |
-| ---------- | ------ | ------------------------ | ------ |
-| 2024-01-11 | Setup  | Repository structure     | ✅     |
-| 2024-01-11 | Setup  | Learning path definition | ✅     |
-| Next       | Python | Core concepts and syntax | 🔜     |
+| Date       | Module | Topic                  | Status |
+| ---------- | ------ | ---------------------- | ------ |
+| 2024-11-06 | Python | Variables and numbers  | ✅     |
+| 2024-11-06 | Python | Strings                | ✅     |
+| Next       | Python | Booleans and operators | 🔜     |
 
 Legend: ✅ Complete | 🟡 In Progress | 🔜 Next Up | ⬜ Not Started
 
@@ -122,4 +124,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Created with 💜 by [Your Name] and Claude
+Created with 💜 by Thibault and Claude

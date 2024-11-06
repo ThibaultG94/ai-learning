@@ -13,83 +13,38 @@ By the end of this module, you will be able to:
 
 ## Module Structure
 
-### Week 1: Python Environment and Basics
+### 01-basics
 
-1. Setting up Python development environment
+- Variables et types de données
+  - Variables et nombres (int, float)
+  - Chaînes de caractères (strings)
+  - Booléens et opérateurs logiques
 
-   - Python installation
-   - Virtual environments
-   - VSCode setup and extensions
-   - Running your first Python program
+### 02-control-flow
 
-2. Variables and Basic Data Types
+- Conditions (if/elif/else)
+- Boucles while et for
+- break et continue
 
-   - Numbers (int, float)
-   - Strings
-   - Booleans
-   - Type conversion
-   - Basic operators
+### 03-data-structures
 
-3. Control Flow
-   - if/elif/else statements
-   - for loops
-   - while loops
-   - break and continue
-   - range() function
+- Lists and Tuples
+- Dictionaries and Sets
+- List comprehensions
 
-### Week 2: Data Structures
+### 04-functions
 
-4. Lists and Tuples
+- Defining functions
+- Parameters and arguments
+- Return values
+- Lambda functions
 
-   - Creating and modifying lists
-   - List methods
-   - List slicing
-   - Tuples vs Lists
+### 05-advanced
 
-5. Dictionaries and Sets
-
-   - Working with key-value pairs
-   - Dictionary methods
-   - Sets and their operations
-   - When to use each data structure
-
-6. List Comprehensions
-   - Basic syntax
-   - Conditional comprehensions
-   - Nested comprehensions
-   - Best practices
-
-### Week 3: Functions and Modules
-
-7. Functions
-
-   - Defining functions
-   - Parameters and arguments
-   - Return values
-   - Scope and namespaces
-   - Lambda functions
-
-8. Modules and Packages
-   - Importing modules
-   - Creating modules
-   - Package structure
-   - Virtual environments in depth
-
-### Week 4: Object-Oriented Programming
-
-9. Classes and Objects
-
-   - Class definition
-   - Attributes and methods
-   - Inheritance
-   - Encapsulation
-   - Polymorphism
-
-10. Error Handling and Testing
-    - Try/except blocks
-    - Raising exceptions
-    - Writing unit tests
-    - Debugging techniques
+- Object-oriented programming
+- Modules and packages
+- Error handling
+- File I/O
 
 ## How to Use This Module
 
@@ -153,9 +108,10 @@ Use the checkboxes in each lesson's README to track your progress. Mark exercise
 
 ## Next Steps
 
-- [ ] Set up your Python environment using `setup.md`
-- [ ] Start with Lesson 1 in `lessons/01-setup-environment.md`
-- [ ] Join our learning community (optional)
+- [x] Set up your Python environment using `setup.md`
+- [x] Complete variables and numbers lessons
+- [x] Complete strings lesson
+- [ ] Start booleans and operators lesson
 
 ---
 
