@@ -1,181 +1,144 @@
-# Lesson 1: Variables and Basic Data Types in Python
+# Leçon 1 : Les variables en Python
 
-## Objectives
+## Une introduction tout en douceur 🐣
 
-After this lesson, you will be able to:
+### À quoi sert cette leçon ?
 
-- Create and use variables in Python
-- Understand Python's basic data types
-- Use basic operators
-- Print and format output
+À la fin de cette leçon, vous saurez :
 
-## 1. Variables in Python
+- Ce qu'est une variable et à quoi ça sert
+- Comment créer et utiliser des variables simples
+- Comprendre les nombres entiers en Python
 
-Unlike many other languages, Python variables:
+### 1. Qu'est-ce qu'une variable ?
 
-- Don't need to be declared with specific types
-- Are created when you first assign a value
-- Can change types dynamically
+Imaginez une boîte... 📦
 
-```python
-# Creating variables
-age = 25        # integer
-name = "Alice"  # string
-height = 1.75   # float
-is_student = True  # boolean
+Une variable, c'est comme une boîte étiquetée dans laquelle vous pouvez ranger une valeur.
 
-# You can reassign different types
-age = "Twenty five"  # This is valid in Python!
-```
-
-## 2. Basic Data Types
-
-### Numbers
+- L'étiquette, c'est le nom de votre variable
+- Ce qui est dans la boîte, c'est la valeur
 
 ```python
-# Integers
-count = 42
-negative = -17
-
-# Floats
-price = 19.99
-pi = 3.14159
-
-# Basic operations
-sum = 5 + 3    # Addition
-diff = 10 - 4  # Subtraction
-prod = 6 * 7   # Multiplication
-quot = 15 / 3  # Division (returns float)
-int_div = 15 // 3  # Integer division
-power = 2 ** 3 # Exponentiation
-remainder = 17 % 5  # Modulo (remainder)
-```
-
-### Strings
-
-```python
-# Creating strings
-name = "Bob"
-message = 'Hello, World!'
-long_text = """This is a
-multi-line
-string"""
-
-# String operations
-greeting = "Hello " + name  # Concatenation
-repeated = "Ha" * 3        # Repetition -> "HaHaHa"
-length = len(name)         # Length -> 3
-```
-
-### Booleans
-
-```python
-is_active = True
-is_closed = False
-
-# Boolean operations
-result1 = True and False  # False
-result2 = True or False   # True
-result3 = not True       # False
-```
-
-## 3. Type Conversion
-
-Python provides functions to convert between types:
-
-```python
-# String to number
-age_str = "25"
-age_num = int(age_str)    # -> 25 (integer)
-price_str = "19.99"
-price_num = float(price_str)  # -> 19.99 (float)
-
-# Number to string
-count = 42
-count_str = str(count)    # -> "42"
-
-# Check type
-print(type(count))      # -> <class 'int'>
-print(type(count_str))  # -> <class 'str'>
-```
-
-## 4. Printing and Formatting
-
-### Basic Printing
-
-```python
-name = "Alice"
 age = 25
-
-# Simple print
-print("Hello!")
-
-# Print variables
-print(name)
-print("Name:", name, "Age:", age)
 ```
 
-### String Formatting
+Ici, on crée une boîte étiquetée "age" et on met le nombre 25 dedans.
+
+### 2. Pourquoi utiliser des variables ?
+
+Prenons un exemple concret. Imaginons que vous développez un petit jeu :
 
 ```python
-# f-strings (recommended, Python 3.6+)
-print(f"Hello, {name}! You are {age} years old.")
+# Sans variable (difficile à maintenir)
+print("Le joueur a 100 points")
+print("Il reste 100 points à gagner")
+print("Le niveau maximum est de 100 points")
 
-# format() method
-print("Hello, {}! You are {} years old.".format(name, age))
-
-# % operator (older style)
-print("Hello, %s! You are %d years old." % (name, age))
+# Avec une variable (beaucoup mieux !)
+score_maximum = 100
+print("Le joueur a", score_maximum, "points")
+print("Il reste", score_maximum, "points à gagner")
+print("Le niveau maximum est de", score_maximum, "points")
 ```
 
-## Practice Exercises
+🤔 **Point de réflexion** : Que se passe-t-il si on veut changer le score maximum à 200 ?
+Quelle version sera plus facile à modifier ?
 
-1. Basic Variables
+### 3. Comment créer une variable ?
+
+En Python, c'est très simple. On utilise le signe = pour "ranger" une valeur dans une variable :
 
 ```python
-# Create variables for your name, age, and favorite number
-# Print them using f-strings
+# On crée une variable "nombre_de_vies" qui contient 3
+nombre_de_vies = 3
+
+# On crée une variable "score" qui contient 0
+score = 0
 ```
 
-2. Type Conversion
+🎮 **Mini-exercice** : Créez une variable `niveau` et mettez-y le nombre 1
+
+### 4. Les règles pour nommer les variables
+
+Comme pour les étiquettes sur vos boîtes, il y a quelques règles :
+
+✅ Ce qui est permis :
 
 ```python
-# Convert "123.45" to a float
-# Then convert it to an integer
-# Print both results
+age = 25          # Simple et clair
+mon_age = 25      # Avec un underscore
+numberOfLives = 3  # Style "camelCase"
+SCORE_MAXIMUM = 100  # Constantes en majuscules
 ```
 
-3. String Operations
+❌ Ce qui n'est PAS permis :
 
 ```python
-# Create two strings and concatenate them
-# Print the length of the result
-# Create a string and repeat it 3 times
+2age = 25        # Ne peut pas commencer par un chiffre
+mon-age = 25     # Le tiret n'est pas permis
+mon âge = 25     # Les espaces ne sont pas permis
 ```
 
-## Common Mistakes to Avoid
+### 5. Utiliser les variables
 
-- Don't use Python keywords as variable names (like `list`, `str`, `int`)
-- Remember that string concatenation only works with strings
-- Be careful with integer division vs float division
-- Watch out for indentation (Python is sensitive to this)
-
-## Challenge
-
-Create a simple temperature converter:
+Une fois créée, vous pouvez utiliser votre variable :
 
 ```python
-# Write code to:
-# 1. Create a variable with a Celsius temperature
-# 2. Convert it to Fahrenheit using the formula: F = C * 9/5 + 32
-# 3. Print both temperatures using nice formatting
+# On crée la variable
+niveau = 1
+
+# On l'affiche
+print("Vous êtes au niveau", niveau)
+
+# On peut la modifier
+niveau = 2
+print("Bravo ! Vous passez au niveau", niveau)
 ```
 
-## Next Steps
+### 6. Premier pas avec les nombres entiers
 
-- Try all the exercises in this lesson
-- Experiment with different combinations
-- Move on to the exercises folder for more practice
-- If you're comfortable, proceed to the next lesson on control flow
+En Python, les nombres entiers s'appellent des "integers" (ou "int").
+Ce sont les nombres comme : -2, -1, 0, 1, 2, 3...
 
-Remember: The best way to learn is by typing the code yourself and experimenting with it!
+```python
+niveau = 1        # Un nombre positif
+vies = 0         # Zéro
+temperature = -5  # Un nombre négatif
+```
+
+### ✍️ Exercice pratique guidé
+
+Créons un petit programme étape par étape :
+
+```python
+# 1. Créez une variable score qui vaut 0
+score = 0
+print("Score de départ :", score)
+
+# 2. Le joueur gagne 10 points
+score = 10
+print("Nouveau score :", score)
+
+# 3. Créez une variable vies qui vaut 3
+vies = 3
+print("Il vous reste", vies, "vies")
+```
+
+### 🎯 Vérifions votre compréhension
+
+Prenez un moment pour répondre à ces questions (mentalement) :
+
+1. Une variable, c'est comme une **\_\_\_** avec une étiquette
+2. Pour créer une variable en Python, on utilise le signe **\_\_\_**
+3. Est-ce qu'une variable peut commencer par un chiffre ? **\_\_\_**
+4. Une fois créée, est-ce qu'on peut changer la valeur d'une variable ? **\_\_\_**
+
+### 🏃‍♂️ Prochaines étapes
+
+- Essayez de modifier le code des exemples
+- Créez vos propres variables
+- Jouez avec l'affichage en utilisant print()
+- Prêt(e) à continuer ? Dans la prochaine partie, nous verrons d'autres types de nombres !
+
+❓ Des questions ? N'hésitez pas à les poser avant de continuer !
