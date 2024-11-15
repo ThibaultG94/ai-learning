@@ -14,34 +14,53 @@ graph TD
     C --> J[setup.md]
     
     F --> K[01-basics]
-    F --> L[02-control-flow]
-    F --> M[03-data-structures]
-    F --> N[04-functions]
-    F --> O[05-advanced]
-    
-    K --> K1[01-introduction.md]
+    K --> K1[01-variables.md]
     K --> K2[02-numbers.md]
     K --> K3[03-strings.md]
     K --> K4[04-booleans.md]
+    K --> K5[05-control-flow.md]
+    K --> K6[06-functions.md]
+    
+    F --> L[02-data-structures]
+    L --> L1[01-lists-tuples.md]
+    L --> L2[02-dictionaries-sets.md]
+    L --> L3[03-list-comprehensions.md]
+    
+    F --> M[03-advanced]
+    M --> M1[01-oop.md]
+    M --> M2[02-modules-packages.md]
+    M --> M3[03-error-handling.md]
+    M --> M4[04-file-io.md]
+    
+    F --> N[04-best-practices]
+    N --> N1[01-pep8.md]
+    N --> N2[02-virtual-env.md]
+    N --> N3[03-testing.md]
+    N --> N4[04-documentation.md]
     
     G --> P[01-basics]
-    G --> Q[02-control-flow]
-    G --> R[03-data-structures]
-    G --> S[04-functions]
-    G --> T[05-advanced]
+    P --> P1[01-variables]
+    P --> P2[02-numbers]
+    P --> P3[03-strings]
+    P --> P4[04-booleans]
+    P --> P5[05-control-flow]
+    P --> P6[06-functions]
     
-    P --> U[01-basic-variables]
-    P --> V[02-numbers]
-    P --> W[03-strings]
-    P --> X[04-booleans]
+    G --> Q[02-data-structures]
+    Q --> Q1[01-lists-tuples]
+    Q --> Q2[02-dictionaries-sets]
+    Q --> Q3[03-list-comprehensions]
     
-    U --> U1[README.md]
-    U --> U2[exercise.py]
-    U --> U3[solution.py]
+    G --> R[03-advanced]
+    G --> S[04-best-practices]
+    
+    P1 --> U1[README.md]
+    P1 --> U2[exercise.py]
+    P1 --> U3[solution.py]
     
     H --> Y[useful-links.md]
 
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style C fill:#ff9,stroke:#333,stroke-width:2px
-    style K fill:#9f9,stroke:#333,stroke-width:2px
-    style P fill:#9f9,stroke:#333,stroke-width:2px
+    style K,L,M,N fill:#9f9,stroke:#333,stroke-width:2px
+    style P,Q,R,S fill:#9f9,stroke:#333,stroke-width:2px
