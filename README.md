@@ -37,7 +37,7 @@ graph LR
   - [x] Control flow (if/else, loops)
   - [x] Functions and parameters
 - [ ] Data Structures
-  - [ ] Lists and tuples
+  - [x] Lists and tuples
   - [ ] Dictionaries and sets
   - [ ] List comprehensions
 - [ ] Advanced Python
