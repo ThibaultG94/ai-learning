@@ -33,8 +33,8 @@ graph LR
 - [ ] Core Python Concepts
   - [x] Variables et nombres (int, float)
   - [x] Chaînes de caractères (strings)
-  - [ ] Booléens et opérateurs logiques
-  - [ ] Control flow (if/else, loops)
+  - [x] Booléens et opérateurs logiques
+  - [x] Control flow (if/else, loops)
   - [ ] Functions and parameters
 - [ ] Data Structures
   - [ ] Lists and tuples
