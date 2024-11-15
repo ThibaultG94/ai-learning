@@ -30,12 +30,12 @@ graph LR
 #### 1. Python Basics
 
 - [x] Project setup and environment
-- [ ] Core Python Concepts
+- [x] Core Python Concepts
   - [x] Variables et nombres (int, float)
   - [x] Chaînes de caractères (strings)
   - [x] Booléens et opérateurs logiques
   - [x] Control flow (if/else, loops)
-  - [ ] Functions and parameters
+  - [x] Functions and parameters
 - [ ] Data Structures
   - [ ] Lists and tuples
   - [ ] Dictionaries and sets
