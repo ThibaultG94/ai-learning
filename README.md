@@ -36,10 +36,10 @@ graph LR
   - [x] Booléens et opérateurs logiques
   - [x] Control flow (if/else, loops)
   - [x] Functions and parameters
-- [ ] Data Structures
+- [x] Data Structures
   - [x] Lists and tuples
-  - [ ] Dictionaries and sets
-  - [ ] List comprehensions
+  - [x] Dictionaries and sets
+  - [x] List comprehensions
 - [ ] Advanced Python
   - [ ] Object-oriented programming
   - [ ] Modules and packages
