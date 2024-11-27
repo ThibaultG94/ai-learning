@@ -41,7 +41,7 @@ graph LR
   - [x] Dictionaries and sets
   - [x] List comprehensions
 - [ ] Advanced Python
-  - [ ] Object-oriented programming
+  - [x] Object-oriented programming
   - [ ] Modules and packages
   - [ ] Error handling
   - [ ] File I/O
