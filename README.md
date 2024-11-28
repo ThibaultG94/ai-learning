@@ -43,7 +43,7 @@ graph LR
 - [ ] Advanced Python
   - [x] Object-oriented programming
   - [x] Modules and packages
-  - [ ] Error handling
+  - [x] Error handling
   - [ ] File I/O
 - [ ] Python Best Practices
   - [ ] PEP 8 style guide
