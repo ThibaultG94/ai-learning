@@ -42,7 +42,7 @@ graph LR
   - [x] List comprehensions
 - [ ] Advanced Python
   - [x] Object-oriented programming
-  - [ ] Modules and packages
+  - [x] Modules and packages
   - [ ] Error handling
   - [ ] File I/O
 - [ ] Python Best Practices
