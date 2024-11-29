@@ -40,11 +40,11 @@ graph LR
   - [x] Lists and tuples
   - [x] Dictionaries and sets
   - [x] List comprehensions
-- [ ] Advanced Python
+- [x] Advanced Python
   - [x] Object-oriented programming
   - [x] Modules and packages
   - [x] Error handling
-  - [ ] File I/O
+  - [x] File I/O
 - [ ] Python Best Practices
   - [ ] PEP 8 style guide
   - [ ] Virtual environments
