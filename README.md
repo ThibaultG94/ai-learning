@@ -48,7 +48,7 @@ graph LR
 - [ ] Python Best Practices
   - [x] PEP 8 style guide
   - [x] Virtual environments
-  - [ ] Testing basics
+  - [x] Testing basics
   - [ ] Documentation
 
 #### 2. Mathematical Essentials
