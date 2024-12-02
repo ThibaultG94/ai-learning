@@ -46,8 +46,8 @@ graph LR
   - [x] Error handling
   - [x] File I/O
 - [ ] Python Best Practices
-  - [ ] PEP 8 style guide
-  - [ ] Virtual environments
+  - [x] PEP 8 style guide
+  - [x] Virtual environments
   - [ ] Testing basics
   - [ ] Documentation
 
