@@ -45,11 +45,11 @@ graph LR
   - [x] Modules and packages
   - [x] Error handling
   - [x] File I/O
-- [ ] Python Best Practices
+- [x] Python Best Practices
   - [x] PEP 8 style guide
   - [x] Virtual environments
   - [x] Testing basics
-  - [ ] Documentation
+  - [x] Documentation
 
 #### 2. Mathematical Essentials
 
