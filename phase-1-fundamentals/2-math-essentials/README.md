@@ -114,5 +114,3 @@ En apprentissage automatique, vos données sont des points dans un espace vector
 2. Implémenter les opérations fondamentales
 3. Visualiser les concepts géométriquement
 4. Appliquer ces outils à des problèmes réels
-
-Prêt à commencer ? La première leçon portera sur les vecteurs - les briques de base de l'algèbre linéaire !
